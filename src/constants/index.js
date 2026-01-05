@@ -24,26 +24,32 @@ const services = [
   {
     title: "Forestry Mulching",
     description: "Mechanical vegetation management for property development, fire mitigation, and land restoration. Designed to efficiently reduce brush and timber while minimizing soil disturbance and erosion.",
+    image: "/assets/services/forestry-mulching.jpg",
   },
   {
     title: "Defensible Space / Fire Fuels Reduction",
     description: "Selective clearing around structures and access routes to reduce wildfire risk. Combines mechanical mulching and hand work where terrain or slope requires alternate methods.",
+    image: "/assets/services/defensible-space.jpg",
   },
   {
     title: "Access Creation & Site Preparation",
     description: "New access on vacant land including clearing, subgrade preparation, drainage shaping, and gravel base installation. Built for durability, equipment access, and long-term maintenance.",
+    image: "/assets/services/access-creation.jpg",
   },
   {
     title: "Driveway Installation & Repair",
     description: "New driveway construction and rehabilitation including stripping topsoil where required, installing compacted gravel base, shaping for drainage, and optional fabric or culverts.",
+    image: "/assets/services/driveway.jpg",
   },
   {
     title: "Land Clearing (Selective)",
     description: "Targeted removal of trees and vegetation to support building sites, access routes, and utility corridors without unnecessary disturbance.",
+    image: "/assets/services/land-clearing.jpg",
   },
   {
     title: "Timber & Stump Work",
     description: "Per-tree and per-stump services for oversized timber, hazard trees, and stumps, performed standalone or in combination with larger site work.",
+    image: "/assets/services/timber-stumps.jpg",
   },
 ];
 

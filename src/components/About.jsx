@@ -8,7 +8,7 @@ import { SectionWrapper } from "../hoc"
 import { fadeIn } from "../utils/motion"
 import { services } from "../constants"
 
-const ServiceCard = ({ index, title, description }) => (
+const ServiceCard = ({ index, title, description, image }) => (
   <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className="w-full">
     <motion.div
       whileHover={{ scale: 1.02 }}
@@ -16,6 +16,9 @@ const ServiceCard = ({ index, title, description }) => (
       className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
     >
       <div className="bg-tertiary rounded-[20px] py-5 px-8 min-h-[200px] flex flex-col relative overflow-hidden">
+        <div className="w-full h-40 mb-4 rounded-[14px] overflow-hidden">
+          <img src={image} alt={title} loading="lazy" className="w-full h-full object-cover" />
+        </div>
         <h3 className="text-white text-[20px] font-bold mb-3">{title}</h3>
         <p className="text-secondary text-[14px] leading-relaxed">{description}</p>
 

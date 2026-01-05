@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+import { ForestrySceneCanvas } from "./canvas";
 import { useState, useEffect } from "react";
 
 const TypewriterText = ({ texts }) => {
@@ -102,7 +102,7 @@ const Hero = () => {
       </div>
       <br /><br /><br />
 
-      <ComputersCanvas />
+      <ForestrySceneCanvas />
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#services">
