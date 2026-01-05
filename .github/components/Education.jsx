@@ -68,7 +68,7 @@ const Process = () => {
           visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
         }}
       >
-        <h2 className={`${styles.sectionHeadText} text-center`}>Our Work Process</h2>
+        <h2 className={`${styles.sectionHeadText} text-center`}>Process.</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col">
